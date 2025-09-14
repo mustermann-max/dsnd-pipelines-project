@@ -1,0 +1,59 @@
+{
+  "lang": "en",
+  "name": "pipeline",
+  "version": "0.0.0",
+  "spacy_version": ">=3.8.7,<3.9.0",
+  "description": "",
+  "author": "",
+  "email": "",
+  "url": "",
+  "license": "",
+  "spacy_git_version": "4b65aa7",
+  "vectors": {
+    "width": 300,
+    "vectors": 20000,
+    "keys": 684830,
+    "name": "en_vectors",
+    "mode": "default"
+  },
+  "labels": {
+    "tok2vec": [],
+    "textcat": [
+      "Reccommended",
+      "NOT_Reccommended"
+    ]
+  },
+  "pipeline": [
+    "tok2vec",
+    "textcat"
+  ],
+  "components": [
+    "tok2vec",
+    "textcat"
+  ],
+  "disabled": [],
+  "performance": {
+    "cats_score": 0.8368926438939044,
+    "cats_score_desc": "macro F",
+    "cats_micro_p": 0.900230445980751,
+    "cats_micro_r": 0.900230445980751,
+    "cats_micro_f": 0.900230445980751,
+    "cats_macro_p": 0.8238678182951618,
+    "cats_macro_r": 0.8522733520259498,
+    "cats_macro_f": 0.8368926438939044,
+    "cats_macro_auc": 0.9406142906885113,
+    "cats_f_per_type": {
+      "Reccommended": {
+        "p": 0.9506005751987819,
+        "r": 0.9267689262741218,
+        "f": 0.9385334892266577
+      },
+      "NOT_Reccommended": {
+        "p": 0.6971350613915416,
+        "r": 0.7777777777777778,
+        "f": 0.7352517985611511
+      }
+    },
+    "textcat_loss": 8.370960234697463
+  }
+}

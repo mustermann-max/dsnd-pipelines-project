@@ -1,3 +1,7 @@
-# Purpose of this Folder
+## DSND Pipelines Project
 
-This folder should contain the scaffolded project files to get a student started on their project. This repo will be added to the Classroom for students to use, so please do not have any solutions in this folder.
+the project aims to predict whether a product review is a recommendation or not using NLP and classical ML methods
+
+the main file is 'starter.ipynb'
+
+replicate the conda environment using: conda create --name dsnd-pipelines-project --file conda_environment.txt
